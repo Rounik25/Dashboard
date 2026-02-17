@@ -25,7 +25,7 @@
       }
     ]
   },
-  "filter":"q1_rating",
+  "filter":"country",
   "distribution_list_total": 50,
   "responses": [
     {
