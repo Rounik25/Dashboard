@@ -274,7 +274,6 @@ async function updateQuesRatings(jsonData){
 
 
 async function updateTable(jsonData){
-    console.log("working");
     let table=document.getElementById("data-table");
     let fullData=jsonData["responses"];
     let displayData;
@@ -342,6 +341,5 @@ async function updateTable(jsonData){
         tableRows.appendChild(row);
 
     }
-    console.log("table added");
     
 }
