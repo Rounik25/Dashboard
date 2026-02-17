@@ -69,7 +69,7 @@ async function makeTableHeader(jsonData){
 
 
 async function filterOnce(){
-    const jsonData=await fetchData('src/data.json');
+    const jsonData=await fetchData('data.json');
     await createFilter(jsonData);
     await updateGlobal(jsonData);
     await makeTableHeader(jsonData);
@@ -129,7 +129,7 @@ async function updateSurveyName(jsonData){
 
 async function filterData(){
 
-    const jsonData=await fetchData('src/data.json');
+    const jsonData=await fetchData('data.json');
 
     const responses=jsonData["responses"];
     dataFiltered=[]
