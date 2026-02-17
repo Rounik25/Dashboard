@@ -1,0 +1,212 @@
+{
+  "company_name": "NorthStar Retail Co.",
+  "survey": {
+    "survey_name": "Q1 Customer Experience Pulse",
+    "open_date": "2026-01-10",
+    "close_date": "2026-01-24",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "How satisfied are you with the overall experience?",
+        "scale_min": 1,
+        "scale_max": 5
+      },
+      {
+        "id": "q2",
+        "text": "How likely are you to recommend us to a friend or colleague?",
+        "scale_min": 1,
+        "scale_max": 5
+      },
+      {
+        "id": "q3",
+        "text": "How satisfied are you with the speed of service?",
+        "scale_min": 1,
+        "scale_max": 5
+      }
+    ]
+  },
+  "filter":"country",
+  "distribution_list_total": 50,
+  "responses": [
+    {
+      "name": "Ava Johnson",
+      "email": "ava.johnson@example.com",
+      "country": "Canada",
+      "date": "2026-01-11",
+      "q1_rating": 2,
+      "q2_rating": 4,
+      "q3_rating": 1
+    },
+    {
+      "name": "Liam Smith",
+      "email": "liam.smith@example.com",
+      "country": "Spain",
+      "date": "2026-01-13",
+      "q1_rating": 5,
+      "q2_rating": 1,
+      "q3_rating": 5
+    },
+    {
+      "name": "Noah Williams",
+      "email": "noah.williams@example.com",
+      "country": "Canada",
+      "date": "2026-01-11",
+      "q1_rating": 4,
+      "q2_rating": 1,
+      "q3_rating": 2
+    },
+    {
+      "name": "Emma Brown",
+      "email": "emma.brown@example.com",
+      "country": "Italy",
+      "date": "2026-01-20",
+      "q1_rating": 5,
+      "q2_rating": 1,
+      "q3_rating": 2
+    },
+    {
+      "name": "Olivia Jones",
+      "email": "olivia.jones@example.com",
+      "country": "Mexico",
+      "date": "2026-01-13",
+      "q1_rating": 5,
+      "q2_rating": 4,
+      "q3_rating": 1
+    },
+    {
+      "name": "William Garcia",
+      "email": "william.garcia@example.com",
+      "country": "Canada",
+      "date": "2026-01-11",
+      "q1_rating": 4,
+      "q2_rating": 2,
+      "q3_rating": 5
+    },
+    {
+      "name": "Sophia Miller",
+      "email": "sophia.miller@example.com",
+      "country": "Mexico",
+      "date": "2026-01-19",
+      "q1_rating": 2,
+      "q2_rating": 1,
+      "q3_rating": 5
+    },
+    {
+      "name": "James Davis",
+      "email": "james.davis@example.com",
+      "country": "Canada",
+      "date": "2026-01-19",
+      "q1_rating": 1,
+      "q2_rating": 5,
+      "q3_rating": 1
+    },
+    {
+      "name": "Isabella Rodriguez",
+      "email": "isabella.rodriguez@example.com",
+      "country": "Canada",
+      "date": "2026-01-17",
+      "q1_rating": 5,
+      "q2_rating": 4,
+      "q3_rating": 3
+    },
+    {
+      "name": "Benjamin Martinez",
+      "email": "benjamin.martinez@example.com",
+      "country": "Canada",
+      "date": "2026-01-21",
+      "q1_rating": 3,
+      "q2_rating": 2,
+      "q3_rating": 2
+    },
+    {
+      "name": "Mia Hernandez",
+      "email": "mia.hernandez@example.com",
+      "country": "Mexico",
+      "date": "2026-01-24",
+      "q1_rating": 3,
+      "q2_rating": 5,
+      "q3_rating": 4
+    },
+    {
+      "name": "Lucas Lopez",
+      "email": "lucas.lopez@example.com",
+      "country": "Canada",
+      "date": "2026-01-18",
+      "q1_rating": 5,
+      "q2_rating": 1,
+      "q3_rating": 1
+    },
+    {
+      "name": "Charlotte Gonzalez",
+      "email": "charlotte.gonzalez@example.com",
+      "country": "Canada",
+      "date": "2026-01-10",
+      "q1_rating": 2,
+      "q2_rating": 4,
+      "q3_rating": 4
+    },
+    {
+      "name": "Henry Wilson",
+      "email": "henry.wilson@example.com",
+      "country": "Mexico",
+      "date": "2026-01-21",
+      "q1_rating": 5,
+      "q2_rating": 3,
+      "q3_rating": 3
+    },
+    {
+      "name": "Amelia Anderson",
+      "email": "amelia.anderson@example.com",
+      "country": "Mexico",
+      "date": "2026-01-14",
+      "q1_rating": 4,
+      "q2_rating": 1,
+      "q3_rating": 1
+    },
+    {
+      "name": "Ethan Thomas",
+      "email": "ethan.thomas@example.com",
+      "country": "USA",
+      "date": "2026-01-14",
+      "q1_rating": 3,
+      "q2_rating": 5,
+      "q3_rating": 4
+    },
+    {
+      "name": "Harper Taylor",
+      "email": "harper.taylor@example.com",
+      "country": "USA",
+      "date": "2026-01-19",
+      "q1_rating": 4,
+      "q2_rating": 3,
+      "q3_rating": 2
+    },
+    {
+      "name": "Alexander Moore",
+      "email": "alexander.moore@example.com",
+      "country": "USA",
+      "date": "2026-01-21",
+      "q1_rating": 2,
+      "q2_rating": 3,
+      "q3_rating": 2
+    },
+    {
+      "name": "Evelyn Jackson",
+      "email": "evelyn.jackson@example.com",
+      "country": "Canada",
+      "date": "2026-01-17",
+      "q1_rating": 4,
+      "q2_rating": 1,
+      "q3_rating": 2
+    },
+    {
+      "name": "Daniel Martin",
+      "email": "daniel.martin@example.com",
+      "country": "USA",
+      "date": "2026-01-21",
+      "q1_rating": 4,
+      "q2_rating": 5,
+      "q3_rating": 3
+    }
+  ]
+}

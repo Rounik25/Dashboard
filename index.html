@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-body"> 
+        <div id="header">
+            <h1 id="app-title">SURVEY ANALYZER</h1>
+            <h1 id="company-name">COMPANY NAME</h1>
+        </div>
+        <div id="dashboard">
+            <div id="KPI">
+                
+                <div class="card" id="card2">
+                    <div>
+                        <p id="response">1500</p>
+                        <h1 id="total-response" class="kpi-heading">TOTAL RESPONSE</h1>
+                    </div>
+                    <div id="ratings">
+                        
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <canvas id="myBarChart" height="120px" width="300px"></canvas>
+                    <h1 id="heading-rating" class="kpi-heading">RATINGS</h1>
+                </div>
+                <div class="card" id="card1">
+                    <div id="date">
+                        
+                    </div>
+                    <h1 id="Survey-Name" class="kpi-heading">SURVEY NAME</h1>
+                </div>
+            </div>
+            
+            <div id="survey-question">
+                <div id="title">
+                    <h1 id="survey-title">SURVEY QUESTIONS & AVERAGE SCORES</h1>
+                </div>
+                <div id="answers">
+
+                </div>
+            </div>
+            <div id="response-table">
+                <div id="data">
+                    <div id="data-table">
+                        
+                        <div id="table-header"></div>
+                        <div id="table-rows" class="row-entry"></div>
+                    </div>
+                </div>
+                <div id="filter">
+                    <h1 id="filter-heading">Country Filter </h1>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>
