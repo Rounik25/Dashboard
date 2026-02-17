@@ -129,7 +129,7 @@ async function updateSurveyName(jsonData){
 
 async function filterData(){
 
-    const jsonData=await fetchData('../src/data.json');
+    const jsonData=await fetchData('src/data.json');
 
     const responses=jsonData["responses"];
     dataFiltered=[]
